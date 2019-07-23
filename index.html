@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <script src = "https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="buttons">
+      <input type="button" id="start" value="Start game">
+      <input type="button" id="restart" value="Restart">
+    </div>
+    <div class="gate">
+        <div class="leftTop target"></div>
+        <div class="leftBot target"></div>
+        <div class="rightTop target"></div>
+        <div class="rightBot target"></div>
+        <div id="catcher" class="goalkeeper"></div>
+    </div>
+    <div class="score">
+      <p>Player: <span id="player"></span></p><br>
+      <p>Goalkeeper: <span id="goalkeeper"></span></p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="ball"></div>
+  </footer>
+  <script src="task1.js" defer></script>
+  <script src="task2.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 250px;
+  background: lightblue;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons{
+  height: 100px;
+  width:100px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+#restart{
+  display: none;
+}
+.score{
+  height: 70px;
+  width:200px;
+  border: 2px solid white;
+  background: lightgreen;
+  margin-top: 100px;
+  padding: 10px 0 0 10px;
+  margin-left: 20px;
+}
+.gate{
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url(images/fbGate.jpg) no-repeat;
+  background-position: center -100px;
+  height: 300px;
+  width:480px;
+}
+.target{
+  height: 60px;
+  width: 60px;
+  background: url(images/target.png) no-repeat;
+  background-size: 60px 60px;
+  position: absolute;
+  cursor: pointer;
+}
+.leftTop{
+  left: 20px;
+  top:10px;
+}
+.leftBot{
+  left:20px;
+  top:200px;
+}
+.rightTop{
+  left:400px;
+  top:10px;
+}
+.rightBot{
+  left:400px;
+  top:200px;
+}
+.goalkeeper{
+  height: 200px;
+  width: 170px;
+  background: url(images/goalkeeper.png) no-repeat center;
+  background-size: 170px 200px;
+  position: inherit;
+  left:50%;
+  top:100px;
+  transform: translateX(-50%);
+}
+.ball{
+  height: 60px;
+  width: 60px;
+  background: url(images/ball.png);
+  background-size: 60px 60px;
+  position: absolute;
+  z-index: 2;
+  top:400px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+footer{
+  z-index: 0;
+  background: url(images/fbGrass.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.catch1{
+  height: 200px;
+  width: 170px;
+  background: url(images/catcher1.png) no-repeat center;
+  background-size: 170px 130px;
+  position: inherit;
+  left:50%;
+  top:100px;
+  transform: translateX(-50%);
+}
+.catch2{
+  height: 200px;
+  width: 170px;
+  background: url(images/catcher2.png) no-repeat center;
+  background-size: 170px 130px;
+  position: inherit;
+  left:50%;
+  top:100px;
+  transform: translateX(-50%);
+}
+.catch3-4{
+  height: 200px;
+  width: 170px;
+  background: url(images/catcher4.png) no-repeat center;
+  background-size: 170px 130px;
+  position: inherit;
+  left:50%;
+  top:100px;
+  transform: translateX(-50%);
+}
